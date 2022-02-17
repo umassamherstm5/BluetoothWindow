@@ -20,9 +20,9 @@
 const int stepsPerRevolution = 500; // number of revolutions for stepper in one motion 
 bool state = false;                 // current state of stepper 
 bool prevState = false;             // previous state of stepper 
-
+ 
 // create instance of Stepper library
-Stepper myStepper(stepsPerRevolution, 8, 9, 10, 11);
+Stepper myStepper(stepsPerRevolution, 10, 9, 6, 5);
 
 void setup() {
   myStepper.setSpeed(20); // set the speed at 60 rpm 
